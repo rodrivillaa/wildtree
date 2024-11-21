@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    /*me permite deslizar cuando hago click en los iconos del menu*/
+    scroll-behavior: smooth;
+}
+a{
+    all: unset;
+}
+*{ font-family: "Montserrat", serif;}
+
+
+nav{
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Lo coloca en la parte superior de la página */
+    left: 0; /* Alinea el navbar al borde izquierdo */
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+    z-index: 1000; /* Asegura que el navbar se quede encima de otros elementos */
+    background-color: #fff; /* Fondo blanco, puedes cambiarlo según tu diseño */
+
+}
+
+body{
+    padding-top: 100px;
+}
+
+section{
+    padding-top: 20px;
+
+}
+
+.contenedor-general{
+    display: flex;
+    justify-content: space-between;
+    background-color: FFFFFF;
+    margin-top: 0px;
+    height: 90px;
+    font-family: "Montserrat", serif;
+    box-shadow: 0px 2px 20px 17px rgba(191,191,191,0.52);
+-webkit-box-shadow: 0px 2px 20px 17px rgba(191,191,191,0.52);
+-moz-box-shadow: 0px 2px 20px 17px rgba(191,191,191,0.52);
+
+
+}
+
+.contenedor-de-navegacion{
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+
+.contenedor-de-navegacion ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-de-navegacion li{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.contenedor-padre{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+}
+
+/* BODY  */
+
+
+.banner img{
+    width: 100%;
+}
+
+
+
+.banner{
+margin-top: 120px;
+    width: 100%;
+}
+
+
+
+.presentacion{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    max-width: 1100px;
+}
+
+.texto{
+    max-width: 1100px;
+   
+}
+
+.presentacion h1{
+    font-family: "Montserrat", serif;
+    font-size: 60px;
+    max-width: 600px;
+
+}
+
+.presentacion p{
+    font-family: "Montserrat", serif;
+    max-width: 800px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.btns{
+    max-width: 1100px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.btn-video{
+    all: unset;
+    padding: 10px;
+    color: #29ABE2;;
+    width: 120px;
+    
+
+}
+
+.btn-nosotros{
+    all: unset;
+    padding: 10px;
+    background-color: #29ABE2;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+}
+
+
+.lenguajes{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    gap: 80px;
+    height: 120px;
+    align-items: center;
+    color: #29ABE2;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+ 
+.icons-d{
+display: flex;
+gap: 15px;
+
+}
+
+/*  NOSOTROS*/
+
+.container-nosotros{
+  text-align: center;
+  margin-top: 120px;
+
+}
+
+.container-hijo{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+.container-hijo h1{
+    font-size: 60px;
+}
+
+.container-hijo p{
+    font-size: 18px;
+}
+
+.graficos{
+    display: flex;
+    margin-top: 120px;
+}
+.ux h3{
+    font-size: 30px;
+   
+}
+
+.ux p{
+    font-size: 18px;
+}
+
+
+.ux{
+    margin-top: 200px;
+    max-width: 500px;
+   
+    margin: 0 auto;
+}
+
+
+
+
+.container-contacto{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: #29aae273; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 440px;
+}
+
+.contacto-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+.contacto-text h1{
+    font-size: 60px;
+
+}
+
+.contacto-text p {
+   max-width: 800px;
+    font-size: 18px;
+}
+
+.banner-contacto{
+
+}
+
+ 
+ 
+.container-footer{
+    box-shadow:  0 -4px 10px rgba(191, 191, 191, 0.52);
+    -webkit-box-shadow: 0px 2px 20px 17px rgba(191,191,191,0.52);
+    -moz-box-shadow: 0px 2px 20px 17px rgba(191,191,191,0.52);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    color: #29ABE2;
+    position: relative;
+
+
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  
+
+    
+
+    
+
+} 
+.general{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+
+}
+
+.datos-1{
+    display: flex;
+    margin: 10px;
+
+}
+
+.datos-2{
+display: flex;
+margin: 10px;
+}
+
+.datos-3{
+    display: flex;
+    margin: 10px;
+
+}
+
+.datos-1 p{
+    margin: 5px;
+}
+
+.datos-2 p{
+    margin: 5px;
+}
+
+
+.icons-footer{
+    margin-top: 80px;
+}
+
+.icon{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+footer{
+    position: relative;
+}
+
+.vector{
+    position: absolute;
+    bottom: 0; /* Ajusta la posición para que esté en la parte inferior */
+    left: 0; /* Se asegura que el vector esté alineado con el borde izquierdo */
+    right: 0;
+    width: 100%; /* Asegura que el vector ocupe todo el ancho */
+    z-index: -1; /* Lo coloca detrás de otros elementos del footer */
+}
+
+.vector img{
+    width: 100%;
+}
+
+
+
